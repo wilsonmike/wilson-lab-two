@@ -1,0 +1,141 @@
+/* resets */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9fafc;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  font-size: 12px;
+}
+
+.chirpus {
+  color: #000;
+  font-size: 12px;
+}
+
+.content-chirpus {
+  font-size: 16px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #69696a;
+  font-size: 12px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.button {
+  background-color: black;
+  border-radius: 25px;
+  display: block;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.hire-us {
+  margin-top: 10px;
+}
+
+.about-text {
+  border-left: 3px solid black;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(247, 193, 162, 0.7);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .hire-us {
+    font-size: 10px;
+    display: inline-block;
+    margin: 0;
+  }
+  .nav-link {
+    padding: 10px;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .content-container {
+    flex: 1;
+  }
+  .circle-container {
+    position: relative;
+    flex: 1;
+  }
+  .large {
+    position: absolute;
+    background-color: rgba(247, 136, 167, 0.6);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    top: -100px;
+    right: 100px;
+  }
+  .small {
+    position: absolute;
+    background-color: rgba(207, 130, 213, 0.6);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    top: -50px;
+    right: 50px;
+  }
+  .medium {
+    position: absolute;
+    background-color: rgba(247, 193, 162, 0.7);
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    top: 30px;
+    right: 40px;
+  }
+}
